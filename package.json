@@ -5,13 +5,18 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src"
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "0.55.4"
+    "react-native": "0.55.4",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.0.4",
+    "react-navigation-header-buttons": "^1.0.0"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.3",
     "babel-jest": "23.0.1",
     "babel-preset-react-native": "4.0.0",
     "eslint": "^4.19.1",
