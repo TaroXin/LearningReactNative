@@ -29,6 +29,13 @@ export default class Index extends React.Component {
                 <Button
                     title="设置导航器标题"
                     onPress={() => this.handleButtonClick('HeaderTest')}/>
+
+                <View style={styles.divide}/>
+
+                <Button
+                    title="底部切换标签页"
+                    onPress={() => this.handleButtonClick('TabNavigator')}/>
+
             </View>
         )
     }

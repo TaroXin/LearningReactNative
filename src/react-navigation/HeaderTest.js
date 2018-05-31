@@ -18,6 +18,7 @@ export default class HeaderTest extends Component {
                 backgroundColor: '#F4511E',
             },
             headerTintColor: '#FFFFFF',
+            headerBackTitle: 'Test',
             headerRight: (
                 <HeaderButtons IconComponent={Ionicons} OverflowIcon={<Ionicons name="ios-more" size={23} color="blue" />} iconSize={23} color="blue">
                     <HeaderButtons.Item title="add" iconName="ios-add" onPress={() => console.warn('add')} />
