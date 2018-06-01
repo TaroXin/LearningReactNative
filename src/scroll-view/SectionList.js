@@ -47,6 +47,7 @@ export default class SectionListWrap extends Component {
                     renderItem={({item}) => {
                         return <Image source={item.image} style={styles.imageWrap}/>
                     }}
+
                     renderSectionHeader={({section}) => {
                         return <Text>{section.title}</Text>
                     }}/>
