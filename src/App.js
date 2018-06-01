@@ -25,7 +25,11 @@ class App extends React.Component {
             <View style={styles.container}>
                 <Text>开始学习吧</Text>
 
-                <Button title="ReactNative导航器" style={styles.mt16} onPress={() => this.handleButtonClick('ReactNavigation')}/>
+                <Button title="ReactNative导航器" onPress={() => this.handleButtonClick('ReactNavigation')}/>
+
+                <View style={styles.divide}/>
+
+                <Button title="滚动视图" onPress={() => this.handleButtonClick('Scroller')}/>
             </View>
         )
     }
@@ -39,6 +43,10 @@ const styles = StyleSheet.create({
 
     mt16: {
         marginTop: 16,
+    },
+
+    divide: {
+        height: 16,
     },
 })
 

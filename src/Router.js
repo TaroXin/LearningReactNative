@@ -5,6 +5,11 @@ import HeaderTest from './react-navigation/HeaderTest'
 import TabNavigator from './react-navigation/TabNavigator'
 import DrawerNaigator from './react-navigation/DrawerNavigator'
 
+import Scroller from './scroll-view/Index'
+import ScrollView from './scroll-view/ScrollView'
+import FlatList from './scroll-view/FlatList'
+import SectionList from './scroll-view/SectionList'
+
 export default {
     ReactNavigation: ReactNavigation,
     ParameterTest: ParameterTest,
@@ -21,4 +26,10 @@ export default {
             header: null,
         },
     },
+
+
+    Scroller: Scroller,
+    ScrollView: ScrollView,
+    FlatList: FlatList,
+    SectionList: SectionList,
 }
